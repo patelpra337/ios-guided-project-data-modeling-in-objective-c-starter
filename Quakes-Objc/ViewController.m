@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "LSILog.h"
+#import "FirstResponder.h"
 
 @interface ViewController ()
 
@@ -14,9 +16,23 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSLog(@"Hey Quakes!");
+    
+    FirstResponder *firstResponder = [[FirstResponder alloc] init];
+    
+    NSLog(@"firstResponder: %@", firstResponder);
+    NSLog(@"firstResponder.name: %@", firstResponder.name);
+    
+    // C: NULL
+    // Primitive: 0, false, NO
+    // Objective-C: nil
+    
+    firstResponder.name = @"Dimitri";
+    NSLog(@"firstResponder.name: %@", firstResponder.name);
 }
 
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87905E4B24CFB8C900C2AF6A /* FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 87905E4A24CFB8C900C2AF6A /* FirstResponder.m */; };
+		87905E4E24CFC0E000C2AF6A /* Quake.m in Sources */ = {isa = PBXBuildFile; fileRef = 87905E4D24CFC0E000C2AF6A /* Quake.m */; };
+		87905E5124CFD2EC00C2AF6A /* QuakeResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 87905E5024CFD2EC00C2AF6A /* QuakeResults.m */; };
+		87905E5324CFD56B00C2AF6A /* QuakeWithNullMag.json in Resources */ = {isa = PBXBuildFile; fileRef = 87905E5224CFD56B00C2AF6A /* QuakeWithNullMag.json */; };
 		BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8123FDA09F00A39B21 /* AppDelegate.m */; };
 		BDFC8F8523FDA09F00A39B21 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8423FDA09F00A39B21 /* SceneDelegate.m */; };
 		BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8F8723FDA09F00A39B21 /* ViewController.m */; };
@@ -38,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87905E4924CFB8C900C2AF6A /* FirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstResponder.h; sourceTree = "<group>"; };
+		87905E4A24CFB8C900C2AF6A /* FirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstResponder.m; sourceTree = "<group>"; };
+		87905E4C24CFC0E000C2AF6A /* Quake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quake.h; sourceTree = "<group>"; };
+		87905E4D24CFC0E000C2AF6A /* Quake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quake.m; sourceTree = "<group>"; };
+		87905E4F24CFD2EC00C2AF6A /* QuakeResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuakeResults.h; sourceTree = "<group>"; };
+		87905E5024CFD2EC00C2AF6A /* QuakeResults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuakeResults.m; sourceTree = "<group>"; };
+		87905E5224CFD56B00C2AF6A /* QuakeWithNullMag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuakeWithNullMag.json; sourceTree = "<group>"; };
 		BDFC8F7D23FDA09F00A39B21 /* Quakes-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quakes-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFC8F8023FDA09F00A39B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDFC8F8123FDA09F00A39B21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +119,12 @@
 				BDFC8F8423FDA09F00A39B21 /* SceneDelegate.m */,
 				BDFC8F8623FDA09F00A39B21 /* ViewController.h */,
 				BDFC8F8723FDA09F00A39B21 /* ViewController.m */,
+				87905E4924CFB8C900C2AF6A /* FirstResponder.h */,
+				87905E4A24CFB8C900C2AF6A /* FirstResponder.m */,
+				87905E4C24CFC0E000C2AF6A /* Quake.h */,
+				87905E4D24CFC0E000C2AF6A /* Quake.m */,
+				87905E4F24CFD2EC00C2AF6A /* QuakeResults.h */,
+				87905E5024CFD2EC00C2AF6A /* QuakeResults.m */,
 				BDFC8F8923FDA09F00A39B21 /* Main.storyboard */,
 				BDFC8F8C23FDA0A100A39B21 /* Assets.xcassets */,
 				BDFC8F8E23FDA0A100A39B21 /* LaunchScreen.storyboard */,
@@ -146,6 +163,7 @@
 			children = (
 				BDFC8FA723FDA0C800A39B21 /* Quake.json */,
 				BDFC8FAA23FDA0DA00A39B21 /* Quakes.json */,
+				87905E5224CFD56B00C2AF6A /* QuakeWithNullMag.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -242,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87905E5324CFD56B00C2AF6A /* QuakeWithNullMag.json in Resources */,
 				BDFC8FA923FDA0C800A39B21 /* Quake.json in Resources */,
 				BDFC8FAC23FDA0DA00A39B21 /* Quakes.json in Resources */,
 			);
@@ -256,9 +275,12 @@
 			files = (
 				BDFC8FB323FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB523FDA12B00A39B21 /* LSILog.m in Sources */,
+				87905E5124CFD2EC00C2AF6A /* QuakeResults.m in Sources */,
 				BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */,
+				87905E4E24CFC0E000C2AF6A /* Quake.m in Sources */,
 				BDFC8FB723FDA12B00A39B21 /* LSIErrors.m in Sources */,
 				BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */,
+				87905E4B24CFB8C900C2AF6A /* FirstResponder.m in Sources */,
 				BDFC8F9323FDA0A100A39B21 /* main.m in Sources */,
 				BDFC8F8523FDA09F00A39B21 /* SceneDelegate.m in Sources */,
 			);
