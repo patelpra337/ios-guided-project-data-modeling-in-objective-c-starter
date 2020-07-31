@@ -17,5 +17,11 @@ typedef enum : NSInteger {
     // TODO: Add any other error codes here for generic types of errors, your message can provide more details to the user
 } LSIErrorCode;
 
+//typedef NS_ENUM(NSUInteger, LSIErrorCode) {
+//    LSIAPIError = 1000,
+//    <#MyEnumValueB#>,
+//    <#MyEnumValueC#>,
+//};
+
 /// Creates an error with a localized message in the 
 NSError *errorWithMessage(NSString *message, NSInteger errorCode);
